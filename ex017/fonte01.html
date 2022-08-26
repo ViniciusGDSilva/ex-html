@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em Css</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            /*
+            w3 recomenda usar px e em
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc (pt, pc não é recomendado usar para leitura na tela)
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-weight: normal;
+            /*opções de weight= ligther normal bold bolder ou numérica de 100 - 900 */
+             /*
+             fonter
+             weigth = peso
+             width = largura 
+             height = altura 
+             */
+             font-style: italic;
+             text-decoration: underline;
+        }
+        h1,h2 {
+            /*
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            shorthand é uma compilação das linhas acima em uma só, sempre na ordem abaixo
+            - font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bold 3em 'work sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A distinctio, eveniet architecto provident ducimus nulla. Magni iusto incidunt, totam animi nihil, necessitatibus repellat fuga eveniet aut porro assumenda id debitis.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, minima maxime ab rem officiis qui dolorem quo dolorum voluptas? Sit, laboriosam at! Saepe iste ea hic eius natus a architecto.</p>
+</body>
+</html>
